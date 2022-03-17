@@ -155,7 +155,7 @@ export default function Home() {
           {(signer/*.address*/ == "0xAddressOfContractAdmin") ? (
             ""
           ) : (
-            <form action="/">
+            <form action="javascript:void(0);">
               <label htmlFor="fname">First Name:</label><br />
               <input type="text" id="fname" name="fname" /><br />
 
